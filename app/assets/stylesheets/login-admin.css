@@ -1,0 +1,60 @@
+.login_admin{
+  background:url("bg.jpg") no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  position:relative;
+}
+
+.login-card{
+  max-width:400px;
+  padding:40px 40px;
+  background-color:#ffffff;
+  margin:0 auto 25px;
+  margin-top:130px;
+  border-radius:3px;
+  box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-card .profile-img-card{
+  margin:-90px auto 30px auto;
+  display:block;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -o-border-radius:50%;
+  -moz-border-radius:50%;
+  border:6px solid rgba(221, 218, 215, 0.23);
+}
+
+.login-card .reauth-email{
+  display:block;
+  color:#404040;
+  line-height:2;
+  margin-bottom:10px;
+  font-size:14px;
+  text-align:center;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  box-sizing:border-box;
+}
+
+.login-card .form-signin input[type=email], .login-card .form-signin input[type=password], .login-card .form-signin input[type=text], .login-card .form-signin button{
+  height:55px;
+  font-size:16px;
+  width:100%;
+  display:block;
+  margin-bottom:30px;
+  z-index:1;
+  position:relative;
+  box-sizing:border-box;
+}
+
+.login-card .form-signin .form-control:focus{
+  border-color:rgb(69,182,216);
+  outline:0;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(48,173,211);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(49,174,211);
+}
+
